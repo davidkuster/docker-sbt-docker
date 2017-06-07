@@ -4,6 +4,6 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repos
 
 RUN apk update
 
-RUN apk add docker
+RUN apk add docker=1.12.6-r0
 
 CMD cat
